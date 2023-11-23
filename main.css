@@ -1,0 +1,132 @@
+:root {
+    --black: #374151;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Edu+TAS+Beginner:wght@500&family=Handlee&family=Kalam:wght@300&family=Marhey:wght@300&family=Playpen+Sans:wght@100&family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: drop-shadow(30%);
+    background-image: url(bg.png);
+  
+}
+
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Caveat', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+
+}
+
+#div-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#sub-header {
+    margin-top: 50px;
+    font-family: 'Handlee', cursive;
+
+}
+
+#new-task-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#new-task-input {
+    width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-width: 3.5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#input {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-color: black;
+   
+}
+
+#button {
+    padding: 13px;
+    border-radius: 15px;
+    margin-top: 22px;
+    border-width: 3.5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-color: black;
+
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#task-heading {
+    margin-bottom: 20px;
+    margin-left: -27px;
+    font-family: 'Handlee', cursive;
+
+
+}
+
+#sub-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 400px;
+    height: 40px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 3.5px;
+
+}
+
+.edit,
+.delete {
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 3.5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.mamain {
+    display: flex;
+}
