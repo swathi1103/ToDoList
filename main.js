@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     const input = document.querySelector('#new-task-input');
     const list_el = document.querySelector('#sub-main');
 
-    form.addEventListener('submit', (e) => {
+    document.querySelector('#button').addEventListener('click', (e) => {
         e.preventDefault();
         const task = input.value;
         if (!task) {
@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
         }
 
         const task_el = document.createElement('div');
-        task_el.classList.add('mamain'); 
+        task_el.classList.add('mamain');
 
         const task_input_el = document.createElement('input');
         task_input_el.classList.add('text');
